@@ -1,0 +1,15 @@
+.title{
+  margin: 0 auto;
+  width: 40%;
+}
+
+h2{
+  text-align: center;
+}
+.title p{
+  text-align: center;
+  line-height: 1.5rem;
+}
+h3 span{
+  font-weight: lighter;
+}

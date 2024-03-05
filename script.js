@@ -52,8 +52,13 @@ const membri = [
 
 for(let membro of membri){
   output.innerHTML += `
-  <li>
-    <p>Name: ${membro.name}, Role: ${membro.role}, <img src="${membro.img}" alt="${membro.name}"></p>
-  </li>
+  <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="${membro.img}" class="card-img-top" alt="${membro.name}">
+                    <div class="card-body"> 
+                          <h3 class="card-title">${membro.name},  <span>${membro.role}</span> </h3> 
+                    </div>
+                </div>
+            </div>
   `
 }
