@@ -43,4 +43,9 @@ const membri = [
 for(let i = 0; i < membri.length; i++){
   const membro = membri[i];
   console.log(membro);
+  output.innerHTML += `
+  <li>
+  <p>Name: ${membro.name}, Role: ${membro.role}, ${membro.img}</p>
+  </li>
+  `
 }
