@@ -40,12 +40,20 @@ const membri = [
 ]
 // console.log(membri);
 
-for(let i = 0; i < membri.length; i++){
-  const membro = membri[i];
-  console.log(membro);
+// for(let i = 0; i < membri.length; i++){
+//   const membro = membri[i];
+//   console.log(membro);
+//   output.innerHTML += `
+//   <li>
+//   <p>Name: ${membro.name}, Role: ${membro.role}, ${membro.img}</p>
+//   </li>
+//   `
+// }
+
+for(let membro of membri){
   output.innerHTML += `
   <li>
-  <p>Name: ${membro.name}, Role: ${membro.role}, ${membro.img}</p>
+    <p>Name: ${membro.name}, Role: ${membro.role}, ${membro.img}</p>
   </li>
   `
 }
