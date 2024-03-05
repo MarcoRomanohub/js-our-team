@@ -4,7 +4,7 @@ ogni oggetto (membro) ha 3 proprietà : nome ruolo e foto
 console log di ogni oggetto 
 stampare le informazioni in output
 */
-
+const output = document.getElementById('output')
 const membri = [
   {
     name: "Wayne Barnett",
@@ -38,4 +38,9 @@ const membri = [
   }
   
 ]
-console.log(membri);
+// console.log(membri);
+
+for(let i = 0; i < membri.length; i++){
+  const membro = membri[i];
+  console.log(membro);
+}
